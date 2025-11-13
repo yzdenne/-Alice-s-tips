@@ -1,0 +1,47 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-image: url(download\ \(15\).jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.quote-box-project {
+    text-align: center;
+    background-color: rgba(248, 249, 250, 0.9);
+    padding: 30px 40px;
+    border-radius: 8px;
+    border-left: 8px solid #fdceff;
+    position: relative;
+    max-width: 600px;
+    margin: 50px auto; 
+    margin-top: 150px;
+    opacity: 0.99;
+}
+
+.quote-box-project::before {
+    content: '“';
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    font-size: 6em;
+    color: rgba(0, 123, 255, 0.1);
+}
+
+.quote-box-project blockquote {
+    font-size: 1.5em;
+    font-style: italic;
+    min-height: 120px;
+}
+
+.quote-box-project button {
+    background-color: #829df7;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
